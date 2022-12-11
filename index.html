@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mandalorian</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <header>
+            <a href="#" class="logo">THE MANDALORIAN</a>
+            <span id="burguin" class="material-icons" onclick="clickMenu()">menu</span>
+            <nav id="itens_menu">
+                <ul>
+                    <li><a href="#">A SÉRIE</a></li>
+                    <li><a href="#">VÍDEOS</a></li>
+                    <li><a href="#">ONDE ASSISTIR</a></li>
+                    <li><a href="#">REDES SOCIAIS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="headline">
+            <h1><span>THE</span> MANDALORIAN</h1>
+            <div class="ladoalado">
+                <a href="#" class="btn">Assista no Disney+</a>
+                <a href="#" class="btn_clean">Assista ao trailer</a>
+            </div>
+        </div>
+      
+    </div>
+
+    <script>
+        function clickMenu() {
+            if (itens_menu.style.display == 'block') {
+            itens_menu.style.display = 'none'
+           } else {
+            itens_menu.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
