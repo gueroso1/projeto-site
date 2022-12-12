@@ -168,6 +168,7 @@ section {
 
 .videos > ul {
     list-style: none;
+    margin-bottom: 10px;
 }
 
 .videos > ul > li {
