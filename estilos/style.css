@@ -186,3 +186,42 @@ section {
     width: 100%;
     height: auto;
 }
+
+.boxassine {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.assine, .preco, .vantagens {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.assine {
+    font-size: 1.2rem;
+}
+
+.preco {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.vantagens {
+    font-size: 1rem;
+    padding: 0 10%;
+}
+
+footer {
+    background-color: #111a29;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
