@@ -274,7 +274,11 @@ footer {
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {  
+    #burguin {
+        display: none;
+    }
+
     nav {
         height: auto;
         overflow-y: unset;
@@ -285,9 +289,5 @@ footer {
     nav ul li {
         display: inline-block;
         border-bottom: none;
-    }
-
-    #burguin {
-        display: none;
     }
 }
