@@ -226,6 +226,11 @@ footer {
     margin-top: 40px;
 }
 
+.star {
+    font-weight: 900;
+    color: #fff;
+}
+
 .redes {
     display: flex;
     justify-content: center;
@@ -245,4 +250,8 @@ footer {
     height: 32px;
     justify-content: center;
     align-items: center;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.3);
 }
