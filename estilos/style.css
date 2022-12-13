@@ -169,6 +169,7 @@ section {
 .videos > ul {
     list-style: none;
     margin-bottom: 10px;
+    font-size: 0px;
 }
 
 .videos > ul > li {
@@ -254,4 +255,39 @@ footer {
 
 .copy {
     color: rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (min-width: 500px) {
+    .videos ul li {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .videos {
+        white-space: normal;
+        width: 100%;
+    }
+
+    .videos ul li {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    nav {
+        height: auto;
+        overflow-y: unset;
+        flex-basis: unset;
+        display: block;
+    }
+
+    nav ul li {
+        display: inline-block;
+        border-bottom: none;
+    }
+
+    #burguin {
+        display: none;
+    }
 }
