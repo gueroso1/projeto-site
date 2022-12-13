@@ -225,3 +225,24 @@ footer {
     text-align: center;
     margin-top: 40px;
 }
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.redes > a {
+    display: flex;
+    background-color: #fff;
+    color: #162336;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
