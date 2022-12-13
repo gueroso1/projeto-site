@@ -257,6 +257,15 @@ footer {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.disneyplus {
+    max-width: 259px;
+    width: 90%;
+}
+
+.central {
+    height: 100%;
+}
+
 @media only screen and (min-width: 500px) {
     .videos ul li {
         width: 65%;
@@ -271,6 +280,15 @@ footer {
 
     .videos ul li {
         width: 50%;
+    }
+
+    h1 {
+        font-size: 5.3rem;
+        line-height: 4.6rem;
+    }
+
+    .btn {
+        font-size: 1.3rem;
     }
 }
 
@@ -289,5 +307,85 @@ footer {
     nav ul li {
         display: inline-block;
         border-bottom: none;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width: 874px) {
+    .spacevideo {
+        width: 63%;
+        float: left;
+    }
+
+    .boxassine {
+        width: 32%;
+        float: right;
+        margin-top: 39px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    h1 {
+        font-size: 7rem;
+        line-height: 6.5rem;
+    }
+
+    .btn  {
+        font-size: 1.85rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3rem;
+    }
+
+    section, .central {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .central {
+        height: 100%;
+    }
+
+    header {
+        padding: 8px;
+        border-radius: 0 0 17px 17px;
+    }
+
+    h1 {
+        margin-bottom: 36px;
+    }
+
+    .w43 {
+        width: 32%;
+    }
+
+    .videos {
+        overflow-y: unset;
+    }
+
+    .videos ul li {
+        padding: 15px;
+    }
+
+    .videos ul {
+        margin: -15px;
+    }
+
+    .boxassine {
+        width: 30%;
+        margin-top: 39px;
+        min-height: 484px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
